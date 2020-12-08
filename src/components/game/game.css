@@ -1,0 +1,23 @@
+div.main {
+    display: flex;
+}
+
+.card {
+    min-width: 260px;
+    max-width: 360px;
+    border: 1px solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.red {
+    border-color: red;
+    color: red !important;
+}
+
+.blue {
+    border-color: blue;
+    color: blue !important;
+}
